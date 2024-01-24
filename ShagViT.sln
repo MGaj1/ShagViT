@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShagViT", "ShagViT\ShagViT.csproj", "{074360B5-EB96-4F2F-9802-19F3C6CCA57B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074360B5-EB96-4F2F-9802-19F3C6CCA57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074360B5-EB96-4F2F-9802-19F3C6CCA57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074360B5-EB96-4F2F-9802-19F3C6CCA57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074360B5-EB96-4F2F-9802-19F3C6CCA57B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96DD908-59CF-4D3C-8E60-A03E15EC62BF}
+	EndGlobalSection
+EndGlobal

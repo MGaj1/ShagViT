@@ -1,0 +1,30 @@
+﻿<Window x:Class="ShagViT.Prepodavatel2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShagViT"
+        mc:Ignorable="d"
+        Title="Prepodavatel2" Height="450" Width="800">
+    <Grid>
+        <Border>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="Gold" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Button Content="Просмотр дисциплин" Margin="32,97,642,307" Background="Pink" Click="Button_Click_2"/>
+                <Label Content="Логин" HorizontalAlignment="Left" Margin="374,257,0,0" VerticalAlignment="Top" Height="26"/>
+                <TextBox HorizontalAlignment="Left" Margin="429,289,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="119" Height="26"/>
+                <Label Content="ПРЕПОДАВАТЕЛЬ&#xD;&#xA;" HorizontalAlignment="Left" Margin="315,56,0,0" VerticalAlignment="Top" Height="26"/>
+                <Button Content="Список студентов" Margin="311,96,363,308" Background="Pink" Click="Button_Click_2"/>
+                <Button Content="Отчет по занятиям" Margin="568,98,106,306" Background="Pink" Click="Button_Click_2"/>
+
+            </Grid>
+
+        </Border>
+    </Grid>
+</Window>
